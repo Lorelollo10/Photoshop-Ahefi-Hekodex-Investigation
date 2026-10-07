@@ -1,0 +1,22 @@
+<PARSED TEXT FOR SHEET: 1 / 1 TABS
+TAB NAME: indicators.csv>
+index,type,value,name,scope,assessment
+0,sha256,6a4ebb1eb8c91f9eb89cb4059269be601758bbea911efa24e223263bdd4ae137,Photoshop27Full.exe,original victim host,Malwarebytes InfoStealer detection; original EXE
+1,sha256,388967831f49e57486244a4614cb6e71870478418e8c74ef0551d87b5c882ebf,ProManagerc7e51.exe,original victim host,Trojan.Crypt
+2,sha256,567b50a6e1f2e123d0b96f7a9ff4891097b6cbf90a8676e9b96f99010ed2df76,ProUpdate7dd338.exe,original victim host,Trojan.MalPack.PES
+3,sha256,5e19d99333b1d5f48c17a56b76436221d97c59ee416a3a2bdc4255abdbb1cc90,NetHost1dcc90.exe,original victim host,Backdoor.Agent
+4,sha256,bbe1c6043618cd389e158774747cb9d73b02eb9d541ff4b8a67808af18e3ac2c,AppManagerServicef7ad.exe,original victim host,Malware.AI
+5,filename,ProManagerc7e51.exe,,original victim host,matches full name in public Ahefi report; not same SHA
+6,filename,ProUpdate7dd338.exe,,original victim host,matches full name in public Ahefi report; not same SHA
+7,filename,NetHost1dcc90.exe,,original victim host,matches full name in public Ahefi report; not same SHA
+8,filename,AppManagerServicef7ad.exe,,original victim host,matches full name in public Ahefi report; not same SHA
+9,scheduled_task,UpdateHost_1117,,original victim host,persistence
+10,scheduled_task,MaintainHost_058f,,original victim host,persistence
+11,service,CheckManager_29ce,,original victim host,persistence
+12,registry_value,HKLM\SOFTWARE\MICROSOFT\WINDOWS DEFENDER\EXCLUSIONS\PROCESSES|SVCHOST.EXE,,original victim host,Defender exclusion
+13,domain,hekodex[.]com,,Instagram and Discord propagation,crypto scam promotion; NOT established C2 or exfil
+14,sha256,86d0759c3fb2c1ec6e40c5c4518a6641e37d806a422880ee66feb62f256304e4,Photoshop27Full.msi,later isolated lab sample,sample differs from original EXE
+15,sha256,a8f8016f2f91ee3c4df9e9fc67f861c4aeaa960f70e89d51704822fd6022a756,Native addon 309248 bytes,later isolated lab sample,N-API addon
+16,sha256,0fcfa35275a5afbac12d483230c4d1cd9fc4e8bc3ec0798323ece06a27a4603e,Native addon 317440 bytes,later isolated lab sample,N-API addon
+17,sha256,0d75e404a160b180039257aa1d16f36d2732d60bc281cfc4e411517cb07c7001,stage2-input.bin,later isolated lab sample,PE32+ x64
+18,domain,ahefi[.]com,,PUBLIC CONTEXT ONLY,Ahefi delivery domain; NOT observed on original victim host
