@@ -1,5 +1,3 @@
-<PARSED TEXT FOR SHEET: 1 / 1 TABS
-TAB NAME: indicators.csv>
 index,type,value,name,scope,assessment
 0,sha256,6a4ebb1eb8c91f9eb89cb4059269be601758bbea911efa24e223263bdd4ae137,Photoshop27Full.exe,original victim host,Malwarebytes InfoStealer detection; original EXE
 1,sha256,388967831f49e57486244a4614cb6e71870478418e8c74ef0551d87b5c882ebf,ProManagerc7e51.exe,original victim host,Trojan.Crypt
